@@ -1,6 +1,6 @@
 # Angular Example
 
-In this web application, users can check movies and series with dummy data [If you want to see online demo, click it](https://youthful-khorana-51ca88.netlify.app/)
+In this web application, users can check movies and series with dummy data [If you want to see online demo, click it](https://61857e049cbc491a2b4a4f19--youthful-khorana-51ca88.netlify.app/)
 
 ## Tech Stack
 - Developed with **Angular**
