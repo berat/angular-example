@@ -1,0 +1,13 @@
+<app-subheader [title]="'Popular ' + type"></app-subheader>
+<main>
+  <div *ngIf="!loading; else nonLoading">Loading...</div>
+  <div *ngIf="error !== null">{{error}}</div>
+  <ng-template #nonLoading>
+  <ul>
+      <li *ngFor="let item of data">
+        <img loading="lazy" src="{{item.images['Poster Art'].url}}" alt="{{item.title}}" >
+        <span>{{item.title}}</span>
+      </li>
+  </ul>
+  </ng-template>
+</main>

@@ -1,0 +1,17 @@
+<app-subheader [title]="'Popular Titles'"></app-subheader>
+<main>
+  <div *ngIf="!loading; else nonLoading">Loading...</div>
+  <div *ngIf="error !== null">{{error}}</div>
+  <ng-template #nonLoading>
+    <section>
+      <a [routerLink]="['video']" [queryParams]="{type: 'movie'}">
+        <div class="imageCover"></div>
+        <span>Movies</span>
+      </a>
+      <a [routerLink]="['video']" [queryParams]="{type: 'series'}">
+        <div class="imageCover"></div>
+        <span>Seris</span>
+      </a>
+    </section>
+  </ng-template>
+</main>

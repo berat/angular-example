@@ -1,0 +1,31 @@
+header{
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  background: #88E0EF;
+  color: #161E54;
+  
+  .center{
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 17px;
+
+    li{
+      &:last-child{
+        background: #161E54;
+        color: #fff;
+        padding: 8px 12px;
+      }
+    }
+  }
+}

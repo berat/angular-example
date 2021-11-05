@@ -1,0 +1,17 @@
+header{
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  background: #161E54;
+  color: #fff;
+  
+  .center{
+    width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}

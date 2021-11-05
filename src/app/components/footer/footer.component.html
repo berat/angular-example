@@ -1,0 +1,29 @@
+<footer>
+  <div class="center">
+    <nav>
+      <li>Home</li>
+      <li>Terms and Conditions</li>
+      <li>Privacy Policy</li>
+      <li>Collection Statement</li>
+      <li>Help</li>
+      <li>Manage Account</li>
+    </nav>
+    <p>Copyright 2021 Demo Streaming.</p>
+    <div class="bottom-footer">
+      <ul>
+        <a *ngFor="let item of social" href="{{item.url}}">
+          <li>
+            <img src="assets/images/social/{{item.key}}-white.svg" alt="{{item.key}}" width="36" height="36">
+          </li>
+        </a>
+      </ul>
+      <ul>
+        <a *ngFor="let item of stores" href="{{item.url}}">
+          <li>
+            <img src="assets/images/store/{{item.key}}-store.svg" alt="{{item.key}}" width="135" height="40">
+          </li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</footer>

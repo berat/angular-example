@@ -1,0 +1,18 @@
+main {
+  max-width: 1024px;
+  margin: 30px auto;
+
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    .imageCover {
+      background-image: url("../../../assets/images/placeholder.png");
+      background-color: rgba(0, 0, 0, 0.5);
+      background-position: center center;
+      width: 150px;
+      height: 200px;
+    }
+  }
+}
